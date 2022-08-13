@@ -1,9 +1,5 @@
 import React, {Component} from 'react';
 import './Conversor.css';
-
-
-const moedaA ="USD";
-const moedaB ="BRL";
 export default class Conversor extends Component {
 
     constructor(props){
@@ -19,7 +15,7 @@ export default class Conversor extends Component {
     
     converter() {
         let de_para = `${this.props.moedaA}_${this.props.moedaB}`;
-        let url = 'https://free.currconv.com/api/v7/convert?q=${de_para}&compact=ultra&apiKey=0d7d4095696e105c8fc7';
+        let url = `https://free.currconv.com/api/v7/convert?q=${de_para}&compact=ultra&apiKey=0d7d4095696e105c8fc7`;
 
         fetch(url)
         .then(res=>{
