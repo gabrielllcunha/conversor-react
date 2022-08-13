@@ -5,6 +5,7 @@
   background-color: #91a9df;
   border-radius: 10px;
   text-align: center;
+  flex-direction: column;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
 }
   
@@ -21,4 +22,8 @@
 .button:hover {
   background-color: rgb(48, 31, 196);
   cursor: pointer;
+}
+
+input {
+  margin-right: 5px;
 }
