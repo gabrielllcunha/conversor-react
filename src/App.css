@@ -1,12 +1,12 @@
 .wrapper {
   margin: auto;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
   max-width: 900px;
 }
 
 .row {
   display: flex;
-  margin-top: 40px;
+  margin-top: 4px;
   justify-content: space-around;
 }
 
